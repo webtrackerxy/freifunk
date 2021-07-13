@@ -40,7 +40,7 @@ B. 安裝:<br>
 
 1. 下載 Freifunk Firmware:  https://archive.saar.freifunk.net/firmware/1.8.0/sysupgrade/gluon-ffsaar-1.8.0-gl.inet-gl-ar150-sysupgrade.bin
 2. 在 Router 的界面裏，在 Upload Firmware，Upload Freifunk  Firmware.  
-![Router 的界面裏](images\image2.png)
+![Router 的界面裏](images/image2.png)
 3. 移除連接電腦及Router 的 LAN 線
 4. 更新了Freifunk Firmware 的 Router 重新啟動後會自動進入 Mesh 模式，你用手機見到新的 SSID "saar.freifunk.net" 出現就代表成功了。
 
@@ -53,22 +53,22 @@ C. 測試方法 <br>
 1. 室内有安裝寬頻上網:  
 
 將家裏寬頻上網用 Router 的 LAN port 連接 Freifunk  Router 的 WAN port 就可以上網了
-![image3.png](images\image3.png)
+![image3.png](images/image3.png)
 
 測試 Mesh Network 最好有三個或以上 Router 才可成事。假設你的 Freifunk  Router 放在家裏三個不同位置, 只要其中一個連上Internet. 其他位置的 Freifunk  Router 都可上網了。 你可能會發現其實同市面上的 Mesh Router ( e.g. Netgear Orbi ) 原理差不多, 只是不需入密碼 。
 
 你只要使用手機 連上 其中一個 SSID  "saar.freifunk.net"  ( 每個 router 的 SSID 是一樣的 ),  唔需要密碼就能連接了, 就可以上網用 Facebook, Whatsapp, Youtube, Gmail 等 App. 手機無需安裝任可 App. 好似平用 Wi-Fi 或寬頻上網就可以了。
  
-![image4.png](images\image4.png)
+![image4.png](images/image4.png)
 連上 SSID "saar.freifunk.net"  
 
-![image5.png](images\image5.png)
+![image5.png](images/image5.png)
 記住關閉流動網絡, 確定只用 Wi-Fi 
 
-![image8.png](images\image8.png)
+![image8.png](images/image8.png)
 如果只係見到以上 IP 地址: 169.254.93.190. 即表示你未能連上 Internet. 主要原困是沒有連上 Internet 的網節 Node. 請檢查其中一個 Freifunk Router 是否己經連接寬頻 Router.
 
-![image9.png](images\image9.png)
+![image9.png](images/image9.png)
  如果見到以上 IP 地址: 10.24.211.xx , 路由器有 IP 地址: 10.24.193.4. 表示你能連上 Internet 了.
 
 2. 室外用 4G LTE Router 分享上網
@@ -76,7 +76,7 @@ C. 測試方法 <br>
 室内可以用自己寬頻上網做測試. 但在室外情况就需要用 4G LTE Router  再分享給 Freifunk  Router. 
 整個 Mesh Network 會因你的 Internet 連線而上到網. 你其實做了 Gateway 的角式, 帶動其他人上網, 所以我建議你用不記名的太空 4G SIM Card 比較安全分享給其他人使用。
 
-![image10.png](images\image10.png)
+![image10.png](images/image10.png)
 
 
 你需要兩個 Router , 一個是 4G LTE Router, 另一個 是Freifunk  Router 做 Mesh Network. 4G LTE Router要選擇有 LAN PORT 的, 另外最好有內置電池甚至可以供電給另外一個 Freifunk  Router 使用, 4G LTE Router 入張 4G 大空 SIM Card, LAN Port 連接 Freifunk  Router WAN Port 就完成了.
@@ -92,7 +92,7 @@ GL.iNET 4G Smart Router GL-MiFi ( 需注明 EP06-E module for Hong Kong  ) HK$1,
 3. 地鐵返工放工 繁忙時段測試
 Mesh Network 需要大量的 Node 才能成事。 如果大家有興趣一齊試,  我建議可以係繁忙時段搭地鐵時大家開着 Freifunk  Router 試試 Mesh Network 得唔得。如果你有更好的方法使一班人短時間 出來試 Mesh Network 歡迎提出呀。
 
-![image11.png](images\image11.png)
+![image11.png](images/image11.png)
 
 a. 大家約一個或幾個時間. 例如 早上8:30, 9:00, 9:30, 搭邊條線 , 或係邊個站,  地鐵站月台及列車長度大約 180 米. 只要你在車頭、中間及車尾就可成事. <br>  
 b. 你有兩個角色可以做. 
