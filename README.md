@@ -60,16 +60,16 @@ C. 測試方法 <br>
 你只要使用手機 連上 其中一個 SSID  "saar.freifunk.net"  ( 每個 router 的 SSID 是一樣的 ),  唔需要密碼就能連接了, 就可以上網用 Facebook, Whatsapp, Youtube, Gmail 等 App. 手機無需安裝任可 App. 好似平用 Wi-Fi 或寬頻上網就可以了。
  
 ![image4.png](images/image4.png)
-連上 SSID "saar.freifunk.net"  
+<br>連上 SSID "saar.freifunk.net"  
 
 ![image5.png](images/image5.png)
-記住關閉流動網絡, 確定只用 Wi-Fi 
+<br>記住關閉流動網絡, 確定只用 Wi-Fi 
 
 ![image8.png](images/image8.png)
-如果只係見到以上 IP 地址: 169.254.93.190. 即表示你未能連上 Internet. 主要原困是沒有連上 Internet 的網節 Node. 請檢查其中一個 Freifunk Router 是否己經連接寬頻 Router.
+<br>如果只係見到以上 IP 地址: 169.254.93.190. 即表示你未能連上 Internet. 主要原困是沒有連上 Internet 的網節 Node. 請檢查其中一個 Freifunk Router 是否己經連接寬頻 Router.
 
 ![image9.png](images/image9.png)
- 如果見到以上 IP 地址: 10.24.211.xx , 路由器有 IP 地址: 10.24.193.4. 表示你能連上 Internet 了.
+ <br>如果見到以上 IP 地址: 10.24.211.xx , 路由器有 IP 地址: 10.24.193.4. 表示你能連上 Internet 了.
 
 2. 室外用 4G LTE Router 分享上網
 
