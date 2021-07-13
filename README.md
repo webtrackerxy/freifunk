@@ -18,16 +18,16 @@ Freifunk Mesh 網絡地圖例子。每一個紅點是 Node。Node 可以是 Rout
 Freifunk 是基於 OpenWrt 及 Wi-Fi Mesh Networking 的原理，以 BATMAN Advanced Routing 技術進行。每個人只需要購買一個支援 Freifunk 的 Router 並安裝 Freifunk Firmware 就可以不必依賴 ISP 互聯網公司供應商而自行建網, 在斷網下都可進行溝通。睇完以下兩個 Youtube 影片介紹可以更了解其運作。<br>
 
 [Youtube video]<br>
-https://www.youtube.com/watch?v=2XQiLHJdYKE
-https://www.youtube.com/watch?v=2Z12OjnPADA
+https://www.youtube.com/watch?v=2XQiLHJdYKE<br>
+https://www.youtube.com/watch?v=2Z12OjnPADA<br>
 
 Freifunk 大部份文件及討論內容都是以德文為主。幸好有 Google Translate 翻譯成英文才能明白内容。這篇文章主要以實用為主及希望讀者可跟隨步骤製作到 Freifunk Router。其他技術內容不會詳細解釋。如果想睇詳細的說明可以參考德文的網站 https://ctaas.de/OpenWrt_Freifunk_Router_GL-iNet.htm 及参考資料。<br>
 
 A. 下載:<br>
 Freifunk Wi-Fi 網絡在德國有 90% 使用 Gluon Framework 製作相同的 Router firmware. 由於每個 Router 都有獨特的硬件 ( e.g. CPU, Wireless Chip) 及每個 Wi-Fi 網絡都有自己獨特的設定 ( e.g. IP address range, gateway, site name ), 使用 Gluon 可有效管理唔同版本 firmware 的發佈. 我們香港將來都可以用相同方法製作自己的  Freifunk 網絡 。以下是德國其中薩爾邦 (Saarland) Freifunk 網絡所提供的 Router Firmware下載網址, 大家可以在這裡試試。
 
-https://archive.saar.freifunk.net/firmware/1.8.0/factory/
-https://archive.saar.freifunk.net/firmware/1.8.0/sysupgrade/
+https://archive.saar.freifunk.net/firmware/1.8.0/factory/<br>
+https://archive.saar.freifunk.net/firmware/1.8.0/sysupgrade/<br>
 
 factory 及 sysupgrade 有乜分别? 我通常先試 sysupgrade 版本，唔得再試 factory。 ( 這裏有講分别 https://forum.openwrt.org/t/sysupgrade-vs-factory-image-upgrade/53317)
 
@@ -44,9 +44,9 @@ B. 安裝:<br>
 3. 移除連接電腦及Router 的 LAN 線
 4. 更新了Freifunk Firmware 的 Router 重新啟動後會自動進入 Mesh 模式，你用手機見到新的 SSID "saar.freifunk.net" 出現就代表成功了。
 
-https://erfurt.freifunk.net/firmware-flashen/
-https://www.slideshare.net/mariobehling/freifunk-praesentation-english
-https://openwrt.org/toh/gl.inet/gl-ar150
+https://erfurt.freifunk.net/firmware-flashen/<br>
+https://www.slideshare.net/mariobehling/freifunk-praesentation-english<br>
+https://openwrt.org/toh/gl.inet/gl-ar150<br>
 
 C. 測試方法 <br>
 
