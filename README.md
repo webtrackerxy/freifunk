@@ -12,7 +12,7 @@ c)  Freifunk  - Router Firmware,不是手機 App,以 Wi-Fi 及 LAN 方式建網,
  
 Freifunk（德語：“Free Radio”）旨在德國以去中心化型式免費提供 Wi-Fi 網絡，發展已經有十多年的歷史，技術及基礎設施都很成熟。 該計劃涉及大約400個本地社區，擁有超過 41,000 個接入點 (Node)。其中以 Münster、 Aachen、Munich、Stuttgart 及 Paderborn 是最大的社區，每個社區都有1000多個接入點。<br>
 
-![Freifunk Mesh](images\image1.png)
+![Freifunk Mesh](images/image1.png)
 Freifunk Mesh 網絡地圖例子。每一個紅點是 Node。Node 可以是 Router 或 Gateway, <br>
 
 Freifunk 是基於 OpenWrt 及 Wi-Fi Mesh Networking 的原理，以 BATMAN Advanced Routing 技術進行。每個人只需要購買一個支援 Freifunk 的 Router 並安裝 Freifunk Firmware 就可以不必依賴 ISP 互聯網公司供應商而自行建網, 在斷網下都可進行溝通。睇完以下兩個 Youtube 影片介紹可以更了解其運作。<br>
